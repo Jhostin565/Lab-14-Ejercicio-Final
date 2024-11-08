@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Column
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <Text
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accesos Rápidos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/button_consultar_saldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Saldo" />
+
+        <Button
+            android:id="@+id/button_realizar_transferencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realizar Transferencia" />
+
+        <Button
+            android:id="@+id/button_historial_transacciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historial de Transacciones" />
+    </Column>
+</FrameLayout>
